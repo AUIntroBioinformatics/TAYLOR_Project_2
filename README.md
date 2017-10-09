@@ -35,7 +35,7 @@ Create a for loop that will run through each sequence and have it run through th
 
 
 Assign variables to the number of G and C in each sequence.   
-Use _-o_ in **_grep_** for only G/C. Use _-m_ with wc to get the character count. 
+Use _-o_ in **_grep_** for only G/C. Use _-l_ with wc. 
 
         countG=`echo ${sequences[$c]}` | grep -o "G" | wc -l 
 
